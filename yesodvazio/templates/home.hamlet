@@ -1,0 +1,13 @@
+<h1>
+    8 bit reviews
+     <img src=@{StaticR img_logo_png}>
+    <ul class="container">
+        <li>
+            <a href=@{Page1R}>
+                    Final fantasy
+        <li>
+            <a href=@{Page2R}>
+                    Jogos de PC
+    <button onclick="teste()">
+        alunos
+           
