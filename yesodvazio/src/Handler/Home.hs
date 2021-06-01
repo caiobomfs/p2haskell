@@ -37,6 +37,8 @@ getPage2R = do
 getHomeR :: Handler Html
 getHomeR = do
     defaultLayout $ do
+
+        usuario <- lookupSession "_ID"
         addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead $(juliusFile "templates/home.julius")
         toWidgetHead $(luciusFile "templates/home.lucius")

@@ -7,4 +7,5 @@ Cliente
 Usuario
     email Text
     senha Text
-    email Unique
+    UniqueEmail email
+    deriving Show

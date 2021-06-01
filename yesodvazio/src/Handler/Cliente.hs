@@ -7,6 +7,7 @@
 module Handler.Cliente where
 
 import Import
+import Handler.Auxiliar
 
 formCliente :: Maybe Cliente -> Form Cliente
 formCliente mc = renderDivs $ Cliente
@@ -72,6 +73,3 @@ postEditarCliR cid = do
             runDB $ replace cid novoCliente
             redirect ListaCliR
         _ -> redirect HomeR
-
-formWidget :: Widget -> Maybe Html -> Route App -> Text -> Widget
-formWidget widget msg rota m = $(whamletFile "templates/form.hamlet")

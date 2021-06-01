@@ -1,11 +1,11 @@
 D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\aulahaskell.cabal:
-  hash: 59d31848308d8cb77a1151e5f4218eb4b5428653629ecea3e21815c263e87191
+  hash: 9e267f9cce61263e94aa7c5b6aade84343f8dcdf50eafc084c2e71c590545ce7
 D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\src\Settings.hs:
   hash: ded88c52cc9077a13ed9839cc65d5668dc56c5de9b7991d35604d819cfd17cd8
 D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\package.yaml:
   hash: 021fa3319fdcf84ac38872fd4c0ae6e13e819e381f6cdb547aa9947bfb0fa27f
 D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\src\Foundation.hs:
-  hash: a3fbe6b9be706b235b0afab3249b63ee35e540d731588937487c386505d06c0a
+  hash: 2bb68ab135f794724d2ffa1207cd4df925f7a37ef4f23ff9b7eba890adb30310
 D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\src\Import\NoFoundation.hs:
   hash: 0ea0cd195d52cc53173482ef8bc283aacafe06895e4b4a87b8c58e7d52308663
 D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\src\Settings\StaticFiles.hs:
@@ -19,8 +19,14 @@ D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\.stack-work\dist\274b403a\bui
 D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\src\Import.hs:
   hash: cbb5e147e8b0d300e678aeed69fd48c040286f33c1bf98267eef11171943de55
 D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\src\Handler\Home.hs:
-  hash: 4760bd3df431113c0e7d4ea1289d9b311442ac2ca17554d65d143297df6f0a39
+  hash: 10554c5b814c163d6b86752b009efd85901684a979e46d7a75b5a6f25f950a83
+D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\src\Handler\Usuario.hs:
+  hash: 05ead0d460f7ae005a1917bd7315ddeb7e458f3c3d0f99c3d87dc18fad478587
 D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\src\Application.hs:
-  hash: 709068105de94d902222bf33965940bcf933667ae0d386f3613320990bb005b9
+  hash: 43144ce50b70cd86b4c8578052a838cd3d85f408cc08c90ae41d91fa497cadbb
+D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\src\Handler\Login.hs:
+  hash: a5bf36e5195fc501fc36994086bc7404d4b3f7f2ec5daf6c32e123d181065c85
+D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\src\Handler\Auxiliar.hs:
+  hash: 9e34c73a25d5feab4c961ea166ff5023d209971e5f4b35238b27b90c61375ef1
 D:\Estudo\Haskell\aulahaskell\p2haskell\yesodvazio\src\Handler\Cliente.hs:
-  hash: 869766453b9faa04c76d23fdae3eeec5829d3445c3a5aba0ab07c1ec98311396
+  hash: 71debc667acf20b64f77d3d463b3df2907190a2c43f60cd95e7f67336647c11f

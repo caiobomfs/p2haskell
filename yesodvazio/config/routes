@@ -12,3 +12,9 @@
 /clientes ListaCliR GET
 /cliente/apagar/#ClienteId ApagarCliR POST
 /cliente/editar/#ClienteId EditarCliR GET POST
+
+/usuario UsuarioR GET POST
+/login AutR GET POST
+/logout SairR POST
+
+/admin AdminR GET

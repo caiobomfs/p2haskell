@@ -1,13 +1,29 @@
 <h1>
     8 bit reviews
-     <img src=@{StaticR img_logo_png}>
-    <ul class="container">
+<img src=@{StaticR img_logo_png}>
+<ul class="container">
+    <li>
+        <a href=@{Page1R}>
+            Final fantasy
+    <li>
+        <a href=@{Page2R}>
+            Jogos de PC
+    <li>
+        <a href=@{UsuarioR}>
+            Cadastre-se
+
+    $maybe email <- usuario
         <li>
-            <a href=@{Page1R}>
-                    Final fantasy
+            <a href=@{ListaCliR}>
+                Listagem de clientes
+        <li>        
+            <a href=@{ClienteR}>
+                Cadastro de clientes
         <li>
-            <a href=@{Page2R}>
-                    Jogos de PC
-    <button onclick="teste()">
-        alunos
+            <form action=@{SairR} method=post>
+                #{email}: <input type="submit" value="Sair">
+    $nothing
+        <li>
+            <a href=@{AutR}>
+                Entrar
            
