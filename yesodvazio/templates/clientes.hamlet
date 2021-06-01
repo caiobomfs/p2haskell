@@ -1,0 +1,28 @@
+<table>
+    <thead>
+        <tr>
+            <th>
+                Nome
+            <th>
+                CPF
+            <th>
+                Idade
+            <th>
+
+            <th>
+
+    <tbody>
+        $forall Entity cid cliente <- clientes
+            <tr>
+                <td>
+                    #{clienteNome cliente}
+                <td>
+                    #{clienteCpf cliente}
+                <td>
+                    #{clienteIdade cliente}
+                <td>
+                    <a href=@{EditarCliR cid}>
+                        Editar
+                <td>
+                    <form method=post action=@{ApagarCliR cid}>
+                        <input type="submit" value="X">

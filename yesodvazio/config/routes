@@ -6,3 +6,9 @@
 / HomeR GET 
 /Final-fantasy Page1R GET 
 /jogos-de-pc Page2R GET 
+
+/cliente ClienteR GET POST
+/cliente/perfil/#ClienteId PerfilR GET
+/clientes ListaCliR GET
+/cliente/apagar/#ClienteId ApagarCliR POST
+/cliente/editar/#ClienteId EditarCliR GET POST
