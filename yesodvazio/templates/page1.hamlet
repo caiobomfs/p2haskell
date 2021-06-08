@@ -1,0 +1,29 @@
+<header>
+    <h1>
+        Plataformas
+
+<body>
+    <ul id="ps">
+        <li>
+            Playstation 
+            <img src=@{StaticR img_ps1_png} class="ps1">
+        <li>
+            Playstation 2
+            <img src=@{StaticR img_ps2_png} class="ps2">
+        <li>
+            Playstation 3
+            <img src=@{StaticR img_ps3_png} class="ps3">
+    <ul>
+        <li>
+            Xbox
+            <img src=@{StaticR img_xbox_png} class="xbox">
+        <li>
+            Xbox 360
+            <img src=@{StaticR img_xbox360_png} class="xbox360">
+        <li>
+            Xbox One
+            <img src=@{StaticR img_xboxone_png} class="xboxone">
+    <ul>
+        <li>
+            PC
+            <img src=@{StaticR img_pc_png} class="pc">

@@ -1,0 +1,31 @@
+h1{
+    font-family: sans-serif;
+    text-align:center;
+    font-size: 50px;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+ul li {
+    display: block;
+    border: 5px solid black;
+}
+
+.ps1{
+    width:35%;
+}
+
+.ps2{
+    width:25%;
+}
+
+.ps3{
+    width:25%;
+}
+
+.pc{
+    width:25%;
+}

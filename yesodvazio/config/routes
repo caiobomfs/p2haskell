@@ -4,8 +4,8 @@
 /robots.txt RobotsR GET
 
 / HomeR GET 
-/Final-fantasy Page1R GET 
-/jogos-de-pc Page2R GET 
+/plataformas Page1R GET 
+/jogos Page2R GET 
 
 /cliente ClienteR GET POST
 /cliente/perfil/#ClienteId PerfilR GET
@@ -16,5 +16,9 @@
 /usuario UsuarioR GET POST
 /login AutR GET POST
 /logout SairR POST
+
+/produto ProdutoR GET POST
+/compra/#ClienteId CompraR GET POST
+/carrinho/#ClienteId CarrinhoR GET
 
 /admin AdminR GET

@@ -1,29 +1,33 @@
-<h1>
-    8 bit reviews
-<img src=@{StaticR img_logo_png}>
-<ul class="container">
-    <li>
-        <a href=@{Page1R}>
-            Final fantasy
-    <li>
-        <a href=@{Page2R}>
-            Jogos de PC
-    <li>
-        <a href=@{UsuarioR}>
-            Cadastre-se
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href=@{UsuarioR}>
+                    Cadastre-se
+            $maybe email <- usuario
+                <li>
+                    <a href=@{ListaCliR}>
+                        Listagem de clientes
+                <li>        
+                    <a href=@{ClienteR}>
+                        Cadastro de clientes
+                <li>
+                    <form action=@{SairR} method=post>
+                        #{email}: <input type="submit" value="Sair">
+            $nothing
+                <li>
+                    <a href=@{AutR}>
+                        Entrar     
+<body>
+    <h1>
+        Loja 8-Bit
+    <ul>
+        <li>
+            <a href=@{Page1R}>
+                Plataformas
+        <li>
+            <a href=@{Page2R}>
+                Jogos
 
-    $maybe email <- usuario
-        <li>
-            <a href=@{ListaCliR}>
-                Listagem de clientes
-        <li>        
-            <a href=@{ClienteR}>
-                Cadastro de clientes
-        <li>
-            <form action=@{SairR} method=post>
-                #{email}: <input type="submit" value="Sair">
-    $nothing
-        <li>
-            <a href=@{AutR}>
-                Entrar
+
            

@@ -1,0 +1,16 @@
+<header>
+    <h1>
+        Jogos
+
+<body>
+    <ul>
+        <li>
+            <img src=@{StaticR img_ffxi_png} id="ffxi">
+        <li>
+            <img src=@{StaticR img_ffxiii_png} id="ffxiii">
+        <li>
+            <img src=@{StaticR img_dmc_png}  id="dmc">
+        <li>
+            <img src=@{StaticR img_deadspace_png}  id="deadspace">
+        <li>
+            <img src=@{StaticR img_bioshock_png}  id="bioshock">

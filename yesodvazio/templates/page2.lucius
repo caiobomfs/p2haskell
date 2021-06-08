@@ -1,0 +1,30 @@
+#dmc{
+    width:50%;
+}
+
+#deadspace{
+    width:50%;
+}
+
+#ffxiii{
+    width:23%;
+}
+
+#ffxi{
+    width:70%;
+}
+
+#bioshock{
+    width:50%;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align:center;
+}

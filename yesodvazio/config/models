@@ -4,6 +4,16 @@ Cliente
     idade Int
     deriving Show
 
+Venda
+    cliid ClienteId
+    prodid ProdutoId
+    dia Day
+    qt Int
+
+Produto
+    nome Text
+    preco Double
+
 Usuario
     email Text
     senha Text
